@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Meta Tags for SEO -->
+  <meta name="title" content="Ngabs Coding">
+  <meta name="description" content="A site about learning coding in bahasa">
+  <meta name="keywords" content="coding, ngabs coding, ngoding, code, coders">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="English">
+  <meta name="revisit-after" content="1 days">
+  <meta name="author" content="Ngabs RPL">
+
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="shortcut icon" href="img/ng.svg" type="image/x-icon">
+  <title>Ngabs Coding</title>
+</head>
+
+<body>
+  <div class="nav-wrapper">
+    <nav id="nav">
+      <div class="menu-toggle" id="menu-toggle">
+        <input type="checkbox">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <a href="#" class="logo-btn"><img src="img/logo.svg" alt=""></a>
+      <ul id="nav-links">
+        <li><a href="#">Beranda</a></li>
+        <li><a href="#popular-class">Kelas Popular</a></li>
+        <li><a href="#learning-path">Learning path</a></li>
+        <li><a href="#testimonials">Testimoni</a></li>
+      </ul>
+      <button class="login">Masuk</button>
+      <button class="signup">Daftar</button>
+    </nav>
+  </div>
+
+  <div class="container" id="container">
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <img src="img/hero.webp" alt="">
+      <h1>Mahir Teknologi bareng <span><span>Ngabs</span>Coding.</span></h1>
+      <p>Upgrade skill kamu, Dimulai dari skill yang
+        dibutuhkan oleh perusahaan dan industry
+        saat ini. Yuk, daftar di NgabsCoding.</p>
+    </section>
+
+    <!-- Words -->
+    <div class="words-wrapper reveal">
+      <section class="words question">
+        <h2>Kenapa NgabsCoding?</h2>
+        <p><span>NgabsCoding</span> Memberikan materi yang akan membantu anda
+          dengan kurikulum yang dibangun dengan perusahaan-perusahaan ternama</p>
+      </section>
+
+      <section class="words statement">
+        <h2>NgabsCoding berbeda</h2>
+        <p>Di <span>NgabsCoding</span> ini kamu bisa tingkatin skill kamu, engga cuma materi
+          aja yang terjamin, kamu juga di bantu oleh mentor mentor yang profesional loh.</p>
+      </section>
+    </div>
+
+    <!-- Reason -->
+    <section class="container_box reason">
+      <div class="item_box reveal">
+        <img src="./img/ic_reason/mentor.webp">
+        <p>Mentor profesional</p>
+      </div>
+      <div class="item_box reveal">
+        <img src="./img/ic_reason/clock.webp">
+        <p>Jam lebih efisien</p>
+      </div>
+      <div class="item_box reveal">
+        <img src="./img/ic_reason/code.webp">
+        <p>Kurikulum Standar industri global</p>
+      </div>
+      <div class="item_box reveal">
+        <img src="./img/ic_reason/message.webp">
+        <p>Menggunakan Bahasa Indonesia</p>
+      </div>
+      <div class="item_box reveal">
+        <img src="./img/ic_reason/certificate.webp">
+        <p>Mendapatkan Sertifikat</p>
+      </div>
+      <div class="item_box reveal">
+        <img src="./img/ic_reason/case.webp">
+        <p>Studi Kasus & Proyek</p>
+      </div>
+    </section>
+
+    <!-- Popular Class -->
+    <section class="popular-class reveal" id="popular-class">
+      <div class="class-desc">
+        <h1>Kelas paling Popular</h1>
+      </div>
+      <div class="class-list" id="class-list">
+
+      </div>
+    </section>
+
+    <!-- Interest -->
+    <section class="interests" id="learning-path">
+      <h2 class="reveal">Kamu tertarik belajar apa?</h2>
+      <div class="interest reveal">
+        <p>Data Analyst</p>
+        <p class="desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, atque.</p>
+      </div>
+      <div class="interest reveal">
+        <p>Web Developer</p>
+        <p class="desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, atque.</p>
+      </div>
+      <div class="interest reveal">
+        <p>Mobile Developer</p>
+        <p class="desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, atque.</p>
+      </div>
+      <div class="interest reveal">
+        <p>Machine Learning</p>
+        <p class="desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, atque.</p>
+      </div>
+      <div class="interest reveal">
+        <p>UI/UX Designer</p>
+        <p class="desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, atque.</p>
+      </div>
+      <div class="interest reveal">
+        <p>Javascript</p>
+        <p class="desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, atque.</p>
+      </div>
+    </section>
+
+    <!-- Testimonials slideshow -->
+    <div id="testimonials" class="reveal">
+      <h2 class="testi-title">Apa kata siswa</h2>
+      <section class="testimonials">
+        <div class="testimonial fade">
+          <img class="student" src="img/testi/student-img.webp" alt="">
+          <p class="nama">Chelsea alyia henzie</p>
+          <p class="role">UI/UX Design</p>
+          <p class="testi">“NgabsCoding memberikan materi yang sangat
+            menarik,di ngabscoding juga selain itu kita di jamin masuk indutry”</p>
+          <img class="company" src="img/testi/company-img.webp"></img>
+        </div>
+        <div class="testimonial fade">
+          <img class="student" src="img/testi/student-img-1.webp" alt="">
+          <p class="nama">Jimmy Hardy</p>
+          <p class="role">Back-end Developer</p>
+          <p class="testi">“Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, dicta provident. Officiis excepturi consequatur soluta.”</p>
+          <img class="company" src="img/testi/company-img.webp"></img>
+        </div>
+        <div class="testimonial fade">
+          <img class="student" src="img/testi/student-img-2.webp" alt="">
+          <p class="nama">Lamar Tran</p>
+          <p class="role">Android Developer</p>
+          <p class="testi">“Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident assumenda sed odit magni! Similique!”</p>
+          <img class="company" src="img/testi/company-img.webp"></img>
+        </div>
+        <div class="testimonial fade">
+          <img class="student" src="img/testi/student-img-3.webp" alt="">
+          <p class="nama">Beatrice Long</p>
+          <p class="role">Web Developer</p>
+          <p class="testi">“Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quidem rerum dolor repellendus, deleniti cum!”</p>
+          <img class="company" src="img/testi/company-img.webp"></img>
+        </div>
+      </section>
+
+      <!-- Dots slider -->
+      <div class="dots">
+        <a class="prev">❮</a>
+        <a class="next">❯</a>
+      </div>
+    </div>
+
+    <!-- Engagement -->
+    <section class="engagement reveal">
+      <h1>Tunggu apa lagi?</h1>
+      <p>Belajar dengan mentor profesional dan lebih flexible</p>
+      <button class="make-account">Buat akun</button>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer-wrapper">
+    <footer>
+      <div class="div-1">
+        <h3><span>Ngabs</span>Coding</h3>
+        <p class="text">Belajar coding dengan kurikulum industri.
+          Ambil sertifikasi serta kesempatan kerja
+          di berbagai perusahaan.</p>
+        <button>Kontak kami</button>
+      </div>
+      <div class="div-2">
+        <div class="links">
+          <a href="">Blog</a>
+          <a href="">Rewads</a>
+          <a href="">Showcase</a>
+          <a href="">Tentang Kami</a>
+          <a href="">FAQ</a>
+          <a href="">Cara membeli kelas</a>
+        </div>
+        <div class="socials">
+          <img src="img/yt.svg" alt="">
+          <img src="img/ig.svg" alt="">
+          <img src="img/in.svg" alt="">
+        </div>
+      </div>
+      <p class="copyright">© 2019 - 2022, PT CALON JUARA IDN IT FEST.</p>
+    </footer>
+  </div>
+
+  <script src="js/utils.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
